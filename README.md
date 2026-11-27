@@ -21,7 +21,7 @@ Plano do MVP 1: https://claude.ai/artifact/X5aZKPn4G2WM9h9NLGjvip
 ## Rodando localmente
 
 1. Crie um projeto no [Supabase](https://supabase.com) (plano gratuito).
-2. No SQL Editor, rode `supabase/migrations/0001_init.sql`.
+2. No SQL Editor, rode os arquivos de `supabase/migrations/` em ordem (`0001`, `0002`, ...).
 3. Em Authentication > URL Configuration, adicione `http://localhost:3000/auth/callback` às Redirect URLs.
 4. Copie `.env.example` para `.env.local` e preencha com a URL e a anon key do projeto.
 5. `npm install` e `npm run dev`, depois abra http://localhost:3000.
